@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Game Ular</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>GAME ULAR</h1>
+
+  <canvas id="gameCanvas" width="1000" height="400"></canvas>
+
+  <div class="info">
+    <p>Skor: <span id="score">0</span></p>
+    <p id="gameOver" style="display:none; color:red;">Game Over!</p>
+    <button onclick="resetGame()">Reset Game</button>
+  </div>
+
+  <!-- 🎵 Tambahkan suara -->
+  <audio id="crashSound" src="game-over-arcade-6435.mp3" preload="auto"></audio>
+  <audio id="eatSound" src="pop-39222.mp3" preload="auto"></audio>
+
+  <script src="script2.js"></script>
+  © 2025 Amri, Inc.
+</body>
+</html>
